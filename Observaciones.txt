@@ -1,1 +1,2 @@
 Apliqué boostrap solo en las paginas FAQ y Bandas. Las copias de ambas paginas qeu se vizualizan en la carpeta "pages" son las versiones solo con grid/flex
+REsponsive solo INDEX y PRODUCTOS. 
