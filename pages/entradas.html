@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href=../imagenes/logo.png type="image/x-icon">
+    <link rel="stylesheet" href=../styles/styles.css>
+    <title>Entradas</title>
+</head>
+<body class="body">
+
+<main class="grid-container">
+       
+    <header class="banner">
+        <a href=../index.html> <img class="banner-logo" src="../imagenes/reci.png" alt="index"> </a>
+        <P>FESTIVAL </P>
+        <a href="./productos.html"> <img class="banner-img" src="../imagenes/carrito.jpg" alt="Productos"> Productos </a>
+        <a href="./faq.html"> <img class="banner-img" src="../imagenes/signo.jpg" alt="FAQ"> FAQ </a>
+        <a href="./entradas.html"><img class="banner-img" src="../imagenes/ticket.jpg" alt="Entradas"> Entradas </a>
+        <a href="./banda.html"><img class="banner-img" src="../imagenes/guitarra.jpg" alt="LINE UP"> Line Up </a>
+        <a href="./contacto.html"><img class="banner-img" src="../imagenes/contactos.png" alt="Contactanos"> Contacto </a>
+    </header>
+
+
+    <header class="main-page">
+        <h1>Compra tus Entradas</h1>
+    </header>
+
+    <aside class="nav1">
+        <a href="../pages/faq.html">FAQs</a>
+        <p>Todos tenemos dudas. Puedes ver las consultas más frecuentes aquí.</p>
+        <img class="contenido-img" src="../imagenes/signo.jpg" alt="FAQ">
+
+        <a href="../pages/contacto.html">Contacto</a>
+        <p>¿Te sientes solo? ¿Necesitas una guía? Averigua cómo contactarnos aquí.</p>
+        <img class="contenido-img" src="../imagenes/contactos.png" alt="Contactanos">
+    </aside>
+
+        <article class="article1">
+
+            <h3>    Servicios complementarios. </h3>
+              
+            <p><label><input type="checkbox" name="servicio" value="Guarderia"> Guarderia</label></p>
+            <p><label><input type="checkbox" name="servicio" value="Transporte"> Transporte </label></p>
+            <p><label><input type="checkbox" name="servicio" value="Foodtruck"> Boucher para Foodtruck</label></p>
+        </article>
+
+    
+        <article class="article2">
+             <section>
+                 <h2> Dia 1 </h2>
+                 <p>Fecha: 27 de octubre de 2023</p>
+                 <p>Lugar: Teatro Principal</p>
+                 <p>Precio: $30</p>
+                      <button>Comprar Entrada</button>
+             </section>
+
+             <section>
+                 <h2>Dia 2</h2>
+                 <p>Fecha: 28 de octubre de 2023</p>
+                  <p>Lugar: Teatro Principal</p>
+                  <p>Precio: $30</p>
+                     <button>Comprar Entrada</button>
+             </section>
+        
+              <section>
+                  <h2>Ambos dias</h2>
+                  <p>Fecha: 25 de julio de 2023</p>
+                  <p>Lugar: Parque Central</p>
+                   <p>Precio: $50</p>
+                      <button>Comprar Entrada</button>
+                </section>
+
+                
+
+               
+        </article>
+
+           
+      <!-- De aca para abajo deberia ser otra pagina pero por el momento lo voy a dejar en este codigo-->
+        <article class="article3">
+             <h3> Pago. </h3>
+             <label for="nombre">Nombre en la Tarjeta:</label>
+             <input type="text" id="nombre" name="nombre" required><br><br>
+
+             <label for="numero">Número de Tarjeta:</label>
+             <input type="text" id="numero" name="numero" maxlength="16" pattern="[0-9]{16}" required><br><br>
+
+                <label for="tipo">Tipo de Tarjeta:</label>
+             <select id="tipo" name="tipo" required>
+                <option value="" disabled selected>Seleccione el Tipo</option>
+                <option value="Visa">Visa</option>
+                <option value="Mastercard">Mastercard</option>
+                <option value="American Express">American Express</option>
+                </select>
+
+                <label for="fecha">Fecha de Expiración (MM/AA):</label>
+                <input type="text" id="fecha" name="fecha" pattern="^(0[1-9]|1[0-2])\/([0-9]{2})$" required><br><br>
+
+            <button type="submit">Enviar</button>
+         </form>
+
+        </article>
+     
+        <aside class="nav2">
+            <h4>Sponsors y botón para subir</h4>
+        </aside>
+        
+    
+    
+    <footer class="footer">
+     
+        <p>&copy; footer</p>
+        <img class="footer-img" src="../imagenes/logos/claro.jpg" alt="">
+        <img class="footer-img" src="../imagenes/logos/rb.png" alt="">
+        <img class="footer-img" src="../imagenes/logos/ryf.png" alt="">
+      
+      </footer>
+
+
+</main>
+
+</body>
+</html>
