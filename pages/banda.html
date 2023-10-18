@@ -1,47 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="../styles/styles.css">
-    <link rel="shortcut icon" href="../imagenes/logo.png" type="image/x-icon">
-    <title>Line up!</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../imagenes/logo.png" type="image/x-icon">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="../styles/styles.css">
+        <title>LINE UP!</title>
+    </head>
 <body>
     <main>
         <!-- Banner -->
-        <div class="banner">   
-            <header class="p-3 mb-2 bg-primary-subtle text-emphasis-primary d-flex flex-row mb-3 col-12 justify-content-around align-items-center">
-                <a href="../index.html" class="banner-link"> <img src="../imagenes/reci.png" alt="index" class="banner-logo"> </a>
-                <p>FESTIVAL </p>
-                <a href="./productos.html" class="banner-link"> <img src="../imagenes/carrito.jpg" alt="productos" class="banner-img"> </a>
-                <a href="./faq.html" class="banner-link"> <img src="../imagenes/signo.jpg" alt="FAQ" class="banner-img"> </a>
-                <a href="./entradas.html" class="banner-link"><img src="../imagenes/ticket.jpg" alt="Entradas" class="banner-img"> </a>
-                <a href="./banda.html" class="banner-link"><img src="../imagenes/guitarra.jpg" alt="LINE UP" class="banner-img"> </a>
-                <a href="./contacto.html" class="banner-link"><img src="../imagenes/contactos.png" alt="Contactanos" class="banner-img"></a>
+        
+            <header class="banner bg-black">
+                <a href="../index.html"><img class="banner-logo" src="../imagenes/reci.png" alt="index"></a>
+                <img class="banner-centro" src="../imagenes/banner.jpg" alt="banner-centro">
+                <div class="dropdown">
+                    <button class="dropbtn text-white">☰</button>
+                    <div class="dropdown-content">
+                        <a href="../pages/productos.html" class="text-white">Productos</a>
+                        <a href="../pages/faq.html" class="text-white">FAQ</a>
+                        <a href="../pages/entradas.html" class="text-white">Entradas</a>
+                        <a href="../pages/banda.html" class="text-white">Line Up</a>
+                        <a href="../pages/contacto.html" class="text-white">Contacto</a>
+                    </div>
+                </div>
             </header>
-        </div>
+       
 
         <div class="container-fluid">
             <div class="row">
                 <div class="p-3 mb-2 bg-black text-white col-md-1">
-                    <aside>
-                        <a href="../pages/faq.html">FAQs</a>
-                        <p>Todos tenemos dudas. Puedes ver las consultas más frecuentes aquí.</p>
-                        <img class="w-50 rounded-circle" src="../imagenes/signo.jpg" alt="FAQ">
-        
-                        <a href="../pages/contacto.html">Contacto</a>
-                        <p>¿Te sientes solo? ¿Necesitas una guía? Averigua cómo contactarnos aquí.</p>
-                        <img class="w-50 rounded-circle" src="../imagenes/contactos.png" alt="Contactanos">
-                    </aside>
+                    <aside class="p-3 mb-2 bg-black text-white col-1">
+                        <div class="d-flex flex-column justify-content-around">
+                          <a href="../pages/faq.html" class="mb-3"><img class="w-50 h-auto " src="../imagenes/signo.jpg" alt="FAQ"></a>
+                          <a href="../pages/entradas.html" class="mb-3"><img class="w-50 h-auto" src="../imagenes/ticket.jpg" alt="Entradas"></a>
+                          <a href="../pages/banda.html" class="mb-3"><img class="w-50 h-auto" src="../imagenes/guitarra.jpg" alt="LINE UP"></a>
+                          <a href="../pages/contacto.html"><img class="w-50 h-auto" src="../imagenes/contactos.png" alt="Contactanos"></a>
+                        </div>
+                      </aside>
+
                 </div>
                 <div class="p-3 mb-2 bg-secondary text-white col-md-10">
                     <section>
                         <h1>LINE UP!</h1>
                     </section>
         
-                    <article class="p-3 mb-2 bg-warning text-dark">
+                    <article class="p-3 mb-2 bg-dark text-dark">
                         <ol>
                             <li>
                                 <strong>Día 1 - Viernes</strong>
@@ -67,16 +72,16 @@
                         </ol>
                     </article>
         
-                    <article class="p-3 mb-2 bg-info-subtle text-danger">
+                    <article class="p-3 mb-2 bg-dark text-danger">
                         <section>
                             <h2>Gorillaz</h2>
                             <p>Gorillaz es una banda virtual inglesa creada en 1998 por Damon Albarn y Jamie Hewlett. La banda está compuesta por cuatro miembros ficticios: 2-D, Noodle, Murdoc Niccals y Russel Hobbs. La mayoría de sus canciones junto con todo su universo ficticio, se presentan a través de vídeos musicales animados, de animación tradicional y animación por computadora, entrevistas y pequeños cortos animados. En la realidad, Albarn es el único miembro permanente de la banda. El productor y ejecutivo Remi Kabaka Jr. empezaría a colaborar con el grupo en 2016 después de proveer por varios años la voz de Russel Hobbs y sería nombrado miembro oficial junto a Albarn y Hewlett en 2019 en el documental de Gorillaz</p>
                             <a href="https://www.youtube.com/channel/UCfIXdjDQH9Fau7y99_Orpjw"> Canal </a>
                         </section>
         
-                        <section>
+                        <section class="bg-dark text-white p-4">
                             <h4>Temas populares</h4>
-                            <table class="table table-striped">
+                            <table class="table table-striped table-dark">
                                 <thead>
                                     <tr>
                                         <th>Nombre</th>
@@ -84,36 +89,52 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
+                                    <tr class="table-secondary">
                                         <td><a href="https://www.youtube.com/watch?v=WXR-bCF5dbM">19-2000</a></td>
-                                        <td><a href="https://www.youtube.com/watch?v=WXR-bCF5dbM"> <iframe width="280" height="155" width="560" height="315" src="https://www.youtube-nocookie.com/embed/WXR-bCF5dbM?si=ABJ397Q7fnElbGH_&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></a></td>
+                                        <td><a href="https://www.youtube.com/watch?v=WXR-bCF5dbM"><iframe width="280" height="155" width="560" height="315" src="https://www.youtube-nocookie.com/embed/WXR-bCF5dbM?si=ABJ397Q7fnElbGH_&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></a></td>
                                     </tr>
-                                    <tr>
+                                    <tr class="table-secondary">
                                         <td><a href="https://www.youtube.com/watch?v=1V_xRb0x9aw">Clint Eastwood</a></td>
                                         <td><a href="https://www.youtube.com/watch?v=1V_xRb0x9aw"><iframe width="280" height="155" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe></a></td>
                                     </tr>
-                                    <tr>
+                                    <tr class="table-secondary">
                                         <td><a href="https://www.youtube.com/watch?v=PKXloFW_ZCA">Aries</a></td>
                                         <td><a href="https://www.youtube.com/watch?v=PKXloFW_ZCA"><iframe width="280" height="155" src="https://www.youtube-nocookie.com/embed/PKXloFW_ZCA?si=T7-NVdPHFA0ZcWLv&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></a></td>
                                     </tr>
                                 </tbody>
                             </table>
                         </section>
+                        
+                        
                     </article>
                 </div>
-                <div class="p-3 mb-2 bg-black text-white col-md-1">
-                    <aside>
+                
+                    <aside class="p-3 mb-2 bg-black text-white col-1 justify-content-around">
                         <h4>Sponsors y botón para subir</h4>
+                        <img class="img-fluid" src="../imagenes/navredbull.png" alt="sponsor 1">
+                        <a href="#top">
+                            <img class="img-fluid" src="../imagenes/flecha.png" alt="Subir">
+                        </a>
                     </aside>
-                </div>
+                
             </div>
         </div>
 
-        <footer>
-            <p>&copy; footer</p>
-            <img src="../imagenes/logos/claro.jpg" alt="">
-            <img src="../imagenes/logos/rb.png" alt="">
-            <img src="../imagenes/logos/ryf.png" alt="">
+        <footer class="footer p-2 text-white bg-black">
+            <div class="container">
+                <p>&copy; footer</p>
+                <div class="row">
+                    <div class="col-4">
+                        <img class="w-25" src="../imagenes/logos/claro.jpg" alt="claro" class="img-fluid">
+                    </div>
+                    <div class="col-4">
+                        <img class="w-25" src="../imagenes/logos/rb.png" alt="red bull" class="img-fluid">
+                    </div>
+                    <div class="col-4">
+                        <img class="w-25" src="../imagenes/logos/ryf.png" alt="rock and feller" class="img-fluid">
+                    </div>
+                </div>
+            </div>
         </footer>
     </main>
 
